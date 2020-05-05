@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignUp1Fragment"
+    android:background="@color/colorgris">
+
+
+    <LinearLayout
+        android:id="@+id/l_cercle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bleucercle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:text="@string/hi"
+        android:textAppearance="@style/welcome"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/l_cercle"
+        android:layout_marginTop="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="49dp"
+        />
+
+
+
+
+
+
+
+
+
+    <TextView
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/weneed"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:text="@string/weneed"
+            android:textAppearance="@style/create_an_a"
+            android:gravity="top"
+            app:layout_constraintTop_toBottomOf="@+id/hi"
+            android:layout_marginTop="29dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="32dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="57dp"/>
+
+
+
+
+    <EditText
+        android:fontFamily="@font/quicksand"
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/weneed"
+        android:layout_marginTop="29dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="57dp"
+        android:background="@drawable/rectangle_c"/>
+
+
+        <Button
+            android:id="@+id/btnnextA"
+            android:text="@string/next"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="49px"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rectangle"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            android:layout_marginTop="15dp"
+            android:enabled="false"
+
+            />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

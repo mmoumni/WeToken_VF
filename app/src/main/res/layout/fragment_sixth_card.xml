@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbleu"
+    >
+
+
+
+    <ImageView
+        android:layout_marginTop="170dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/test"
+        android:src="@drawable/backgroundcontrib"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/multi">
+
+
+
+        <LinearLayout
+            android:id="@+id/l_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:text="Meryem moumni"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_chip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_cartenumbre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cartenumbre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="1246"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+
+            <TextView
+                android:id="@+id/cartenumbre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=" * * * *"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+            <TextView
+                android:id="@+id/cartenumbre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=" * * * *"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+            <TextView
+                android:id="@+id/cartenumbre4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="9245"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/l_PhoneNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:src="@drawable/logo"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/linear"
+        android:layout_marginTop="340dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:clickable="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewonlinepayement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online Payements"
+                    android:textColor="#21293A"
+                    ></TextView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    android:theme="@style/SCBSwitch" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textviewOnlinePayement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Online Transactions"
+                android:textColor="#7E8EAA"></TextView>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:clickable="true"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewatm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ATM withdrawals"
+                    android:textColor="#21293A"
+                    ></TextView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    android:theme="@style/SCBSwitch" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textviewAtm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable withdraw in any Bank"
+                android:textColor="#7E8EAA"></TextView>
+
+
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:clickable="true"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewfreeze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Freeze your card"
+                    android:textColor="#21293A"
+                    ></TextView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    android:theme="@style/SCBSwitch" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textviewFreeze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disable your card"
+                android:textColor="#7E8EAA"></TextView>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:clickable="true"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewlimitations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Limitations"
+                    android:textColor="#21293A"
+                    ></TextView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    android:theme="@style/SCBSwitch" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textviewLimitations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set withdrawal and payment limits"
+                android:textColor="#7E8EAA"></TextView>
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:clickable="true"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewresetpin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reset Pin"
+                    android:textColor="#21293A"
+                    ></TextView>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:theme="@style/SCBSwitch" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textviewresetPin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose a different PIN code"
+                android:textColor="#7E8EAA"></TextView>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

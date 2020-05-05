@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".mobile_connect.ConnectFragment"
+    android:orientation="vertical"
+    android:background="@color/colorgris">
+
+
+    <LinearLayout
+        android:id="@+id/l_cercle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bleucercle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/hithere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/hithere"
+        android:textAppearance="@style/hithere"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/image_3"
+        android:layout_marginTop="34dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="188dp"
+        />
+
+
+    <TextView
+        android:fontFamily="@font/quicksand"
+        android:id="@+id/create_an_a"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:text="@string/create_an_a"
+        android:textAppearance="@style/create_an_a"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/hithere"
+        android:layout_marginTop="29dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="57dp"/>
+
+
+
+    <LinearLayout
+            android:id="@+id/linea"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/rectangle_c">>
+
+        <com.hbb20.CountryCodePicker
+                app:ccp_autoDetectCountry="true"
+                app:ccp_countryPreference="fr,tn"
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+        />
+
+
+
+
+        <EditText
+                android:id="@+id/editText_carrierNumber"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="phone"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+        <ProgressBar android:theme="@style/Base.Theme.AppCompat.Dialog"
+                     android:layout_width="0dp"
+                     android:layout_weight="0.2"
+                     android:id="@+id/progbarSms"
+                     android:visibility="gone"
+                     android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

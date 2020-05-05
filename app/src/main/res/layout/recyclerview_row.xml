@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/recyclerviewportrait"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/contributionid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contribution ID: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+            ></TextView>
+        <TextView
+            android:id="@+id/textviewCTR_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/contributionfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sender's account: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+
+            ></TextView>
+        <TextView
+            android:id="@+id/textviewCTR_FROM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+
+            android:textSize="40px"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/contributionto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver's account: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/textviewCTR_TO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+
+            android:textSize="40px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/contributionpurpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purpose: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+
+            ></TextView>
+        <TextView
+            android:id="@+id/textviewCTR_MOTIF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+
+            android:textSize="40px"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/contributionamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+
+            ></TextView>
+        <TextView
+            android:id="@+id/textviewCTR_AMOUNT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/contributionplage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interval of Delivery(Days): "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/textviewCTR_PLAGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/contributiondate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textColor="#00BFFF"
+            android:textSize="50px"
+            ></TextView>
+        <TextView
+            android:id="@+id/textviewCTR_DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#21293A"
+            android:textSize="40px"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

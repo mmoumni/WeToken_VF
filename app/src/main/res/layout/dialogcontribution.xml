@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minHeight="110dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="90dp"
+    android:layout_marginBottom="80dp"
+    android:background="@color/colorbackground">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/retour"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fleshacancel"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rectanglesettings">
+
+
+
+        <LinearLayout
+            android:id="@+id/l_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/white_56"
+                android:layout_height="60dp"
+                android:layout_weight="0.2"
+                android:id="@+id/linearimg"
+                android:layout_width="0dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/profile"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/photo"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textviewl_firstname"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Sender"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <TextView
+                android:id="@+id/sender"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Meryem"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+        </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center_horizontal">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/send">
+
+           </ImageView>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/recive">
+
+           </ImageView>
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/white_56"
+                android:layout_weight="0.2"
+                android:layout_height="60dp"
+                android:id="@+id/linearim"
+                android:layout_width="0dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/reciver"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/sender"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textviewlastname"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="Receiver"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/receiver"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Moumni"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="@drawable/rectanglesettings">
+
+        <LinearLayout
+            android:id="@+id/l_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textviewPhoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.5"
+                android:text="Purpose"
+                android:textColor="@color/colorblack"
+                android:textSize="44px"
+
+                />
+
+            <TextView
+                android:id="@+id/prime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="prime"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+        <LinearLayout
+            android:id="@+id/l_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textviewemail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Amount"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="Moum"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/l_intervalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/intervaleofdel"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Interval of delivery"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <TextView
+                android:id="@+id/intervale"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="Mou"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+
+        <LinearLayout
+            android:id="@+id/l_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Date"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <TextView
+                android:id="@+id/datee"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text="Moumn"
+                android:textSize="44px"
+                android:textColor="@color/colorblack"
+                android:layout_weight="0.5"
+
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorbackground"/>
+
+
+
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorbackground"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

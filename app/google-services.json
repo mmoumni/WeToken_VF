@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299332460983",
+    "firebase_url": "https://wetokenfv.firebaseio.com",
+    "project_id": "wetokenfv",
+    "storage_bucket": "wetokenfv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299332460983:android:5220a48440a21fa57b8832",
+        "android_client_info": {
+          "package_name": "com.example.wetoken_vf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299332460983-i9a65631mt9svkra1421m41v9umsieke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuvOkJ_lFgU2Cc0BLibCjsSrpWHMaRcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299332460983-i9a65631mt9svkra1421m41v9umsieke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

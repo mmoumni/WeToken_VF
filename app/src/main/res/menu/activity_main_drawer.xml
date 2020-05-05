@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:title=" Home"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC"
+            >
+
+
+        </item>
+
+
+
+        <item android:title=" @string/Refunds"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC" >
+
+                <menu>
+                        <item
+                            android:id="@+id/nav_refund_position"
+                            android:title="Position" />
+                        <item
+                            android:id="@+id/nav_refund_new"
+                            android:title="New Refund" />
+
+                        <item
+                            android:id="@+id/nav_refund_history"
+                            android:title="Refund History" />
+
+                </menu>
+        </item>
+
+
+
+        <item android:title="@string/Contribution"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC" >
+
+                <menu>
+                        <item
+                            android:id="@+id/nav_Contribution_management"
+                            android:title="Contribution Management" />
+                        <item
+                            android:id="@+id/nav_Check_Hisorty"
+                            android:title="New Refund" />
+
+
+                </menu>
+        </item>
+
+
+
+
+
+        <item android:title="@string/Bonuses"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC" >
+
+                <menu>
+                        <item
+                            android:id="@+id/nav_Profit_management"
+                            android:title="Profit_Management" />
+                        <item
+                            android:id="@+id/nav_Performanece_bonus"
+                            android:title="Performanece Bonus" />
+
+
+                </menu>
+        </item>
+
+
+
+
+        <item android:title="@string/Arbitrage"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC" >
+
+                <menu>
+                        <item
+                            android:id="@+id/position_arbitrage"
+                            android:title="Position" />
+                        <item
+                            android:id="@+id/histor_arbitrage"
+                            android:title="@string/menu_histor" />
+
+                </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_cacheinout"
+            android:title=" Cache in /cache out"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC">
+
+
+        </item>
+
+
+
+        <item
+            android:id="@+id/settings"
+            android:title=" Settings"
+            android:icon="@drawable/paperplane"
+            android:textColor="#3988DC" >
+
+
+        </item>
+
+
+
+
+
+
+</menu>

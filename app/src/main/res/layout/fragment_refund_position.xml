@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorgris"
+    tools:context=".refund_position">
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/carte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/multi">
+
+
+
+        <LinearLayout
+            android:id="@+id/l_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:text="Meryem moumni"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_chip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_cartenumbre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cartenumbre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="1246"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+
+            <TextView
+                android:id="@+id/cartenumbre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=" * * * *"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+            <TextView
+                android:id="@+id/cartenumbre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=" * * * *"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+            <TextView
+                android:id="@+id/cartenumbre4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="9245"
+                android:textSize="44px"
+                android:textColor="@color/ios_white"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/l_PhoneNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:src="@drawable/logo"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/carte"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/l_wetoken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/bitlogo"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/wetoken"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WTC"
+                    android:textSize="49px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+                <TextView
+                    android:id="@+id/wetokencoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Wetoken"
+                    android:textSize="40px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:src="@drawable/wetoken"
+                android:layout_marginLeft="22dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/wetokenvaleur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" $1,400.81"
+                android:textSize="49px"
+
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+        <LinearLayout
+            android:id="@+id/l_bitcoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/bitlogo"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+            <TextView
+                android:id="@+id/textviewinformationspersonnelles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTC"
+                android:textSize="49px"
+                android:textColor="@color/colorblack"
+
+                />
+
+                <TextView
+                    android:id="@+id/bitcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Bitcoin"
+                    android:textSize="40px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bitcoin"
+                android:layout_marginLeft="22dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/bitcoinvaleur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" $1,400.81"
+                android:textSize="49px"
+
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/l_ether"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/ethereum"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/textether"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ETH"
+                    android:textSize="49px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+                <TextView
+                    android:id="@+id/ethert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Ethereum"
+                    android:textSize="40px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ether"
+                android:layout_marginLeft="22dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/ethervaleur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" $1,400.81"
+                android:textSize="49px"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+
+        <LinearLayout
+            android:id="@+id/l_litcoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/litetecoin"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/litcoinvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LTC"
+                    android:textColor="@color/colorblack"
+                    android:textSize="49px"
+
+                    />
+
+                <TextView
+                    android:id="@+id/litcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Litcoin"
+                    android:textSize="40px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ltcoin"
+                android:layout_marginLeft="22dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/bitcoinvaleur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" $1,400.81"
+                android:textSize="49px"
+
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+
+        <LinearLayout
+            android:id="@+id/l_xrpcoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animationtextview"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+
+                android:layout_height="40dp"
+                android:src="@drawable/xrp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/ripple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XRP "
+                    android:textSize="49px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+                <TextView
+                    android:id="@+id/Ripplecoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Ripple"
+                    android:textSize="40px"
+                    android:textColor="@color/colorblack"
+
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:src="@drawable/xrpgraph"
+                android:layout_marginLeft="22dp"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/xrpval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29dp"
+                android:text=" $1,400.81"
+                android:textSize="49px"
+
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#EAECEF"/>
+
+        
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md_yellow_100"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+  <Button
+      android:id="@+id/button0"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/md_yellow_200"
+      android:text="Position" />
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:background="@color/md_orange_100"
+      android:text="New Refund" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:background="@color/md_orange_100"
+      android:text="Refund history" />
+
+
+</LinearLayout>
+

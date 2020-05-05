@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NewrefundFragment"
+    android:background="@color/colorbleu">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="70dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="parent"
+        android:src="@drawable/background">
+
+
+
+
+
+    </ImageView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/refundrequest"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="@string/RefundRequest"
+        android:textAppearance="@style/thinkpass"
+        android:gravity="top"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="90dp"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+
+    <TextView
+        android:id="@+id/quantiterefund"
+        android:layout_width="280dp"
+        android:layout_height="23.07dp"
+        android:text="@string/total_spent"
+        android:textAppearance="@style/total_spent"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/refundrequest"
+        android:layout_marginTop="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/rectangle_4"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:background="@drawable/rectangletext"
+        android:alpha="0.5"
+        app:layout_constraintTop_toBottomOf="@id/quantiterefund"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        android:hint="10 000 000"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/refundtype"
+        android:layout_width="280dp"
+        android:layout_height="23.07dp"
+        android:text="@string/refundtype"
+        android:textAppearance="@style/total_spent"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_4"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+
+        />
+
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:prompt="@string/prompt"
+        android:background="@drawable/rectangletext"
+        android:alpha="0.5"
+        app:layout_constraintTop_toBottomOf="@id/refundtype"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="280dp"
+        android:layout_height="23.07dp"
+        android:text="@string/amount"
+        android:textAppearance="@style/total_spent"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/spinner"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        android:hint="10 000 000"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/rectangle_6"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:background="@drawable/rectangletext"
+        android:alpha="0.5"
+        app:layout_constraintTop_toBottomOf="@id/amount"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        android:hint="10 000 000"
+
+        />
+
+
+    <Button
+        android:id="@+id/done"
+        android:text="DONE"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="49px"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rectangle"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_6"
+        android:layout_marginTop="170dp"
+
+        />
+
+
+
+
+
+
+    />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

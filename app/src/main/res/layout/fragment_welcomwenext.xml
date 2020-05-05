@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbleu">
+
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_loading_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@color/colorbleu"
+        app:animCircleLoadingView_mainColor="@color/white_56"
+        app:animCircleLoadingView_secondaryColor="@color/red"
+        app:animCircleLoadingView_textColor="@color/red"
+        app:mainColor="@color/colorbackground"
+
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        app:checkMarkTintColor="@color/red"
+        />
+
+    <TextView
+        android:id="@+id/thnks"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="@string/thnks"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAppearance="@style/thnks"
+        android:layout_centerHorizontal="true"
+
+
+
+        android:gravity="center_horizontal"
+        />
+
+</RelativeLayout>

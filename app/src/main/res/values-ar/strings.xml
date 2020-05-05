@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">WeToken_VF</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <!-- login -->
+    <string name="create_an_a">أدخل رقم هاتفك المحمول لتوصيل حسابك</string>
+    <string name = "hithere"> مرحبًا ، </string>
+    <string name="next">التالي</string>
+    <string name = "createcompte">إنشاء حساب </string>
+
+
+    <!-- verification code -->
+
+    <string name = "phone_verif"> تحقق من رقم الهاتف </string>
+    <string name = "we_have_sen"> لقد أرسلنا لك رسالة نصية قصيرة تحتوي على رمز رقم </string>
+    <string name = "didn_t_you"> لم تتلقى رمز؟ \ n أرسل 5 كود جديد. </string>
+
+
+    <!-- last name-->
+    <string name = "what_s_yourf"> ما هو اسمك  </string>
+    <string name = "welcome"> مرحبًا </string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name = "what_s_your"> ما هو اسمك  </string>
+
+    <string name = "weneed"> نحتاج إلى مزيد من التفاصيل لإنشاء حسابك </string>
+    <string name = "thinkpass"> فكر في كلمة مرور للدخول إليها </string>
+
+    <string name="email">بريدك الالكتروني هو ...</string>
+    <string name = "hi"> مرحبًا! </string>
+    <string name = "pass"> فكر في كلمة مرور للدخول  </string>
+    <string name = "great"> رائع! </string>
+    <string name="passw">كلمة السر الخاصة بك</string>
+    <string name = "confpass"> أكد رمز المرور الخاص بك </string>
+    <string name = "sign_up"> دعنا نبدأ </string>
+    <string name = "thnks"> نشكرك على قضاء وقتك لإنشاء حساب معنا. </string>
+    <string name = "readytogo"> أنت مستعد للذهاب! </string>
+
+
+    <string name="mustcon">يجب أن تحتوي على: </string>
+    <string name = "mustcon2"> حرف واحد خاص ، حرف كبير واحد ، حرف واحد صغير </string>
+    <string name = "chooseagoodpassyord"> اختر كلمة مرور جيدة </string>
+    <string name = "veryweek"> ضعيف جدًا </string>
+    <string name = "youareready"> أنت مستعد للذهاب! </string>
+    <string name = "welcomagain">  مرحبًا بك مرة أخرى </string>
+
+
+    <!-- drawer -->
+
+
+    <string name = "action_refund"> ​​المبالغ المستردة </string>
+    <string name = "menu_position"> الموضع </string>
+    <string name = "menu_refund"> ​​استرداد جديد </string>
+    <string name = "menu_history"> السجل </string>
+
+    <string name = "action_contribution"> المساهمة </string>
+    <string name = "menu_management"> الإدارة </string>
+    <string name = "menu_histor"> السجل </string>
+
+    <string name = "action_bonuses"> المكافآت </string>
+    <string name = "menu_sharing"> مشاركة الأرباح </string>
+    <string name = "menu_performances"> العروض </string>
+
+
+    <string name = "action_arbitrage"> التحكيم </string>
+    <string name = "menu_positio"> الموضع </string>
+    <string name = "menu_histori"> السجل </string>
+
+
+
+
+    <!-- Newrefund -->
+
+    <string name="total_spent">كمية لاسترداد</string>
+    <string name="refundtype">استرداد نوع</string>
+    <string name="amount">كمية</string>
+    <string name="btndone">تم</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="English">English</string>
+    <string name="French">Français</string>
+    <string name="Arab">العربية</string>
+    <string name="Chinese">中国</string>
+    <string name="Spain">Española</string>
+
+
+
+
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+
+    <string name="enterpass">أدخل كلمة مرورك</string>
+    <string name="forgetpassword">نسيت كلمة المرور </string>
+
+    <string name="langue">Langues</string>
+    <string name="ok">OK</string>
+    <string name="fr">Français</string>
+    <string name="en">Anglais</string>
+
+
+
+</resources>

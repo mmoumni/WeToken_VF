@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">WeToken_VF</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login -->
+
+    <string name="create_an_a">Entrez votre numéro de mobile pour connecter votre compte</string>
+    <string name="hithere">Salut ,</string>
+    <string name="next">NEXT</string>
+    <string name = "createcompte"> Je n\'ai pas de compte ? </string>
+
+    <!-- verification code -->
+
+    <string name="phone_verif">Vérification du téléphone</string>
+    <string name="we_have_sen">Nous vous avons envoyé un SMS avec un code à numéroter</string>
+    <string name = "didn_t_you"> N\'avez-vous pas reçu de code? \ nRenvoyez en 5 un nouveau code. </string>
+
+
+    <!-- last name-->
+
+    <string name="welcome">Bienvenu</string>
+    <string name="what_s_your">Quel est votre prénom</string>
+    <string name="address">Entrez votre adresse pour connecter votre compte</string>
+
+
+
+    <string name="enterpass">Tapez votre mot de passe</string>
+    <string name="forgetpassword">Mot de passe oubli\é ?</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+    <string name="what_s_yourf">Quel est votre nom de famille</string>
+    <string name="weneed">nous avons besoin de plus de détails pour créer votre compte</string>
+    <string name="thinkpass">pensez à un mot de passe pour accéder</string>
+
+    <string name="email">Votre E-mail est ...</string>
+    <string name="hi">Salut !</string>
+    <string name="pass">pensez à un mot de passe pour accéder</string>
+    <string name="great">Génial!</string>
+    <string name="passw">Votre mot de passe !</string>
+    <string name = "confpass"> confirmez votre mot de passe </string>
+    <string name = "sign_up"> Commençons </string>
+    <string name = "thnks"> Merci d\'avoir pris le temps de créer un compte avec nous. Maintenant, c\'est la partie amusante, explorons l\'application. </string>
+    <string name = "readytogo"> Vous êtes prêt à partir! </string>
+
+    ng>
+    <string name = "mustcon"> Doit contenir: </string>
+    <string name = "mustcon2"> 1 caractère spécial, 1 majuscule, 1 minuscule </string>
+    <string name = "chooseagoodpassyord"> Choisissez un bon mot de passe </string>
+    <string name = "veryweek"> très faible </string>
+    <string name = "youareready"> Vous êtes prêt à partir! </string>
+    <string name = "welcomagain"> Bienvenue à nouveau </string>
+
+
+
+
+
+    <!-- drawer -->
+
+    <string name = "action_refund"> ​​Remboursements </string>
+    <string name = "menu_position"> Position </string>
+    <string name = "menu_refund"> ​​Nouveau remboursement </string>
+    <string name = "menu_history"> Historique </string>
+
+    <string name = "action_contribution"> Contribution </string>
+    <string name = "menu_management"> Gestion </string>
+    <string name = "menu_histor"> Historique </string>
+
+    <string name = "action_bonuses"> Bonus </string>
+    <string name = "menu_sharing"> Partage des bénéfices </string>
+    <string name = "menu_performances"> Performances </string>
+
+
+    <string name = "action_arbitrage"> Arbitrage </string>
+    <string name = "menu_positio"> Position </string>
+    <string name = "menu_histori"> Historique </string>
+
+
+
+
+
+    <!-- Newrefund -->
+
+    <string name="total_spent">Quantité à rembourser</string>
+    <string name="refundtype">Type de remboursement</string>
+    <string name="amount">Montant</string>
+    <string name="btndone">Terminé</string>
+    <string name="RefundRequest">Demande de remboursement</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="English">English</string>
+    <string name="French">Français</string>
+    <string name="Arab">العربية</string>
+    <string name="Chinese">中国</string>
+    <string name="Spain">Española</string>
+
+
+
+    <string name = "title_activity_main2"> Main2Activity </string>
+    <string name = "navigation_drawer_open"> Ouvrez le tiroir de navigation </string>
+    <string name = "navigation_drawer_close"> Fermez le tiroir de navigation </string>
+    <string name = "nav_header_title"> Android Studio </string>
+    <string name = "nav_header_subtitle"> android.studio@android.com </string>
+    <string name = "nav_header_desc"> En-tête de navigation </string>
+
+    <string name = "menu_home"> Accueil </string>
+    <string name = "menu_gallery"> Galerie </string>
+    <string name = "menu_slideshow"> Diaporama </string>
+    <string name = "menu_tools"> Outils </string>
+    <string name = "menu_share"> Partager </string>
+    <string name = "menu_send"> Envoyer </string>
+
+
+
+
+
+    <string name="Contribution">Contribution</string>
+    <string name="Refunds">Refunds</string>
+    <string name="Bonuses">Bonuses</string>
+    <string name="Arbitrage">Arbitrage</string>
+
+
+
+
+
+    <string name="fr">Français</string>
+    <string name="en">Anglais</string><string name="langue">Langues</string>
+    <string name="ok">OK</string>
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:passcode="http://schemas.android.com/apk/res-auto"
+    tools:context=".ConnectVerifiFragment"
+    android:background="@color/colorgris">
+
+
+
+    <LinearLayout
+        android:id="@+id/l_cercle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/griscercle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bleucercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/phone_verif"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:text="@string/phone_verif"
+        android:textAppearance="@style/phone_verif"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/l_cercle"
+        android:layout_marginTop="34dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <TextView
+            android:fontFamily="@font/quicksand"
+        android:id="@+id/we_have_sen"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:text="@string/we_have_sen"
+        android:textAppearance="@style/create_an_a"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/phone_verif"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="57dp"
+        />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:text="92 569 606"
+        app:layout_constraintTop_toBottomOf="@+id/we_have_sen"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="57dp"
+        />
+
+    <RelativeLayout
+            passcode:layout_constraintLeft_toLeftOf="parent"
+            passcode:layout_constraintRight_toRightOf="parent"
+            passcode:layout_constraintTop_toBottomOf="@id/txtTel"
+
+            android:id="@+id/relativ"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:passcode="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+        <com.nirigo.mobile.view.passcode.PasscodeIndicator
+                android:id="@+id/passcode_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                passcode:indicator_background="@drawable/shape_passcode_indicator_ios"
+                passcode:indicator_background_active="@drawable/shape_passcode_indicator_fill_ios"
+                passcode:indicator_length="6"
+                passcode:indicator_level="0"
+                passcode:indicator_margin="9dp"
+                passcode:indicator_size="14dp"
+        />
+
+        <com.nirigo.mobile.view.passcode.PasscodeView
+                android:id="@+id/passcode_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/passcode_indicator"
+                android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:fontFamily="@font/quicksand"
+        android:id="@+id/didn_t_you"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/didn_t_you"
+        android:textAppearance="@style/didn_t_you1"
+        app:layout_constraintTop_toBottomOf="@id/relativ"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal|top" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

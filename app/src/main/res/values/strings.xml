@@ -1,0 +1,161 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- login -->
+
+    <string name="create_an_a">Enter your mobile number to connect your account</string>
+    <string name="hithere">Hi there,</string>
+    <string name="next">NEXT</string>
+    <string name="createcompte">Dont have an account ?</string>
+
+
+    <!-- verification code -->
+
+    <string name="phone_verif">Phone Verification</string>
+    <string name="we_have_sen">We have sent you an SMS with a code to number</string>
+    <string name="didn_t_you">Didn\'t you received any code? \nResend in 5 a new code.</string>
+
+
+    <!-- last name-->
+    <string name="welcome">Welcome</string>
+    <string name="what_s_yourf">What s your last name</string>
+
+
+    <string name="address">Enter your Address to connect your account</string>
+    <string name="forgetpassword">Forget Password ?</string>
+
+    <string name="enterpass">Enter your Password</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="what_s_your">What s your First name</string>
+
+    <string name="weneed">We need some more details to create your account</string>
+    <string name="thinkpass">Think a passcode to\naccess</string>
+
+    <string name="email">Your Email is...</string>
+    <string name="hi">Hi !</string>
+    <string name="pass">Think a passcode to access</string>
+    <string name="great">Great!</string>
+    <string name="passw">Your Password !</string>
+    <string name="confpass">Confirm your password</string>
+    <string name="sign_up">Let s Get Started</string>
+    <string name="thnks">Thanks for taking your time to create account with us. Now this is the fun part, let s explore
+        the App.
+    </string>
+    <string name="readytogo">Vous êtes prêt à partir!</string>
+
+    <string name="mustcon">Must contain:</string>
+    <string name="mustcon2">1 special character, 1 capital letter, 1 lower case letter</string>
+    <string name="chooseagoodpassyord">Choose a good password</string>
+    <string name="veryweek">very weak</string>
+    <string name="youareready">You are ready to go!</string>
+    <string name="welcomagain">Welcome again</string>
+
+
+    <!-- drawer -->
+
+    <string name="action_refund">Refunds</string>
+    <string name="menu_position">Position</string>
+    <string name="menu_refund">New refund</string>
+    <string name="menu_history">History</string>
+
+    <string name="action_contribution">Contribution</string>
+    <string name="menu_management">Management</string>
+    <string name="menu_histor">History</string>
+
+    <string name="action_bonuses">Bonuses</string>
+    <string name="menu_sharing">Profit sharing</string>
+    <string name="menu_performances">Performances</string>
+
+
+    <string name="action_arbitrage">Arbitrage</string>
+    <string name="menu_positio">Position</string>
+    <string name="menu_histori">History</string>
+
+
+    <!-- Newrefund -->
+
+    <string name="total_spent">Quantity to refund</string>
+    <string name="refundtype">Refund Type</string>
+    <string name="amount">Amount</string>
+    <string name="btndone">Done</string>
+    <string name="RefundRequest">Refund Request</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="English">English</string>
+    <string name="French">Français</string>
+    <string name="Arab">العربية</string>
+    <string name="Chinese">中国</string>
+    <string name="Spain">Española</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="Contribution">Contribution</string>
+    <string name="Refunds">Refunds</string>
+    <string name="Bonuses">Bonuses</string>
+    <string name="Arbitrage">Arbitrage</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="app_name">ComboBox</string>
+    <string name="prompt">Choose a country</string>
+    <string-array name="countries_array">
+        <item>China</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+    </string-array>
+
+
+    <string name="fr">Français</string>
+    <string name="en">Anglais</string>
+
+    <string name="langue">Langues</string>
+    <string name="ok">OK</string>
+
+
+    <string name="txtautoriseraccesposition">txtautoriseraccesposition</string>
+
+    <string-array name="email_array">
+        <item>mmoumni@wenext.io</item>
+        <item>test@wenext.io</item>
+        <item>fbaatourzzzz</item>
+    </string-array>
+
+    <string name="google_plus_title">Google Plus</string>
+    <string name="google_maps_title">Maps</string>
+    <string name="google_messenger_title">Messenger</string>
+
+    <string name="create_new_contribution">Create a new contribution</string>
+    <string name="modify_existing_contribution">Modify an existing contribution</string>
+    <string name="delete_contribution">Delete a contribution</string>
+    <string name="historique_contribution">Historique</string>
+
+    <string name="path_search">M141,17 A9,9 0 1,1 142,16 L149,23</string>
+</resources>

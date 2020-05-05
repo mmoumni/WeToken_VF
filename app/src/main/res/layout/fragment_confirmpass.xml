@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ConfirmpassFragment"
+    android:background="@color/colorbackground">
+
+    <LinearLayout
+        android:id="@+id/l_cercle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/griscercle"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bleucercle"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/great"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:text="@string/great"
+        android:textAppearance="@style/welcome"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@+id/l_cercle"
+        android:layout_marginTop="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="49dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="188dp"/>
+
+        <TextView
+            android:id="@+id/confpass"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="@string/confpass"
+            android:textAppearance="@style/thinkpass"
+            android:gravity="top"
+            app:layout_constraintTop_toBottomOf="@+id/great"
+            android:layout_marginTop="29dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="32dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="57dp"
+            />
+
+
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="280dp"
+            android:layout_height="38dp"
+            android:hint="@string/passw"
+            android:gravity="top"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/view"
+            app:layout_constraintTop_toBottomOf="@+id/confpass"
+            android:layout_marginTop="29dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="32dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="57dp"
+            android:background="@drawable/rectangle_c"/>
+
+
+        <Button
+            android:id="@+id/btnnext3"
+            android:text="NEXT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="49px"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rectangle"
+            app:layout_constraintTop_toBottomOf="@+id/passw"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

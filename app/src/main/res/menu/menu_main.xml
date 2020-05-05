@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wetoken_vf.MainActivity"
+    >
+
+    <item android:title="menu"
+android:icon="@drawable/global"
+app:showAsAction="always">
+<menu>
+    <item android:id="@+id/English"
+        android:title="@string/English"
+        android:icon="@drawable/america"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/French"
+        android:title="@string/French"
+        android:icon="@drawable/franc"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/Arab"
+        android:title="@string/Arab"
+        android:icon="@drawable/arab"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/spain"
+        android:title="Spain"
+        android:icon="@drawable/spain"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/chinese"
+        android:title="Chinese"
+        android:icon="@drawable/china"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+
+
+
+</menu>
+</item>
+</menu>

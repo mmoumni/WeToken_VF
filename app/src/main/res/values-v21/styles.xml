@@ -1,0 +1,94 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+
+
+
+
+    <style name="english">
+        <item name="enteryouremail">Enter your adress to connect \nto your account</item>
+        <item name="next">Next</item>
+        <item name="changeaccount">Change Your Account</item>
+        <item name="enterpassword">Enter Your Password</item>
+        <item name="forgetten">Forgetten?</item>
+        <item name="welcome">Welcome Again</item>
+
+        <item name="textreadytogo">You are Ready To Go!!</item>
+        <item name="textdescriptionaccueil">Thanks for taking your time to\n create account with us. Now this is\n the fun part, let’s explore the App.</item>
+        <item name="home">Home</item>
+        <item name="refund">Refund</item>
+        <item name="position">Position</item>
+        <item name="newrefund">New Refund</item>
+        <item name="history">History</item>
+
+        <item name="contribution">Contribution</item>
+        <item name="management">Management</item>
+        <item name="settings">Settings</item>
+        <item name="personnaldetails">Personal Details</item>
+        <item name="changelangage">Change Language</item>
+        <item name="nightmode">Night Mode</item>
+        <item name="changepassword">Change Password</item>
+        <item name="fingerprint">Signin with fingerprint</item>
+
+        <item name="logout">Logout</item>
+        <item name="security">Security</item>
+        <item name="customerservice">Customer Service</item>
+        <item name="rategoogleplay">Rate us on Google Play</item>
+        <item name="followtwitter">Follow us on Twitter</item>
+        <item name="likefacebook">Like Us On Facebook</item>
+        <item name="followinstagram">Follow Us on Instagram</item>
+
+        <item name="followlinkedin">Follow Us on LinkedIn</item>
+        <item name="abonneryoutube">Subscribe on YouTube</item>
+
+        <item name="apropos">About Us</item>
+
+
+    </style>
+
+    <style name="frensh">
+        <item name="enteryouremail">Entrer votre adresse mail \npour se connecter </item>
+        <item name="next">Suivant</item>
+        <item name="changeaccount">Changer Votre Compte</item>
+        <item name="enterpassword">Entrer Votre Mot de passe</item>
+        <item name="forgetten">Oublié?</item>
+        <item name="welcome">Content de te revoir</item>
+        <item name="textreadytogo">Vous etes pret de démarrer !!</item>
+        <item name="textdescriptionaccueil">Merci davoir pris le temps de\n créer un compte avec nous. Maintenant, cest\n la partie amusante, explorons lapplication.
+        </item>
+        <item name="home">Accueil</item>
+
+        <item name="refund">Remboursement</item>
+        <item name="position">Position</item>
+        <item name="newrefund">Nouveau Remboursement</item>
+        <item name="history">Historique</item>
+        <item name="contribution">Versement</item>
+        <item name="management">Gestion</item>
+        <item name="settings">Paramètres</item>
+        <item name="personnaldetails">Détails personnels</item>
+        <item name="changelangage">Changer la langue</item>
+        <item name="nightmode">Mode Sombre</item>
+        <item name="changepassword">Changer mot de passe</item>
+        <item name="fingerprint">Sauthentifier emprunte</item>
+        <item name="logout">Se Déconnecter</item>
+        <item name="security">Sécurité</item>
+        <item name="customerservice">Service Client</item>
+        <item name="rategoogleplay">Evaluez Nous sur Google Play</item>
+
+        <item name="followtwitter">Suivez Nous sur Twitter</item>
+
+        <item name="likefacebook">Aimez Nous sur Facebook</item>
+        <item name="followinstagram">Suivez Nous sur Instagram</item>
+        <item name="followlinkedin">Suivez Nous sur LinkedIn</item>
+        <item name="abonneryoutube">Abonnez Vous sur YouTube</item>
+        <item name="apropos">A propos</item>
+
+
+    </style>
+</resources>

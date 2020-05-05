@@ -1,0 +1,476 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorbleu</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorbackground</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="create_an_a">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+    <style name="hithere">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.03
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+
+    <style name="welcome">
+
+        <item name="android:textSize">
+            34sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.03
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+
+    <style name="what_s_your">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #66000000
+        </item>
+
+    </style>
+
+    <style name="weneed">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+
+    <style name="didn_t_you">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.03
+        </item>
+
+        <item name="android:textColor">
+            #B8BBC6
+        </item>
+
+    </style>
+
+
+    <style name="thinkpass">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+
+    <style name="phone_verif">
+
+        <item name="android:textSize">
+            34sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.03
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+    <style name="we_have_sen">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #0A1F44
+        </item>
+
+    </style>
+
+
+    <style name="email">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #66000000
+        </item>
+
+    </style>
+
+
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="thnks">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="readytogo">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.04
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="didn_t_you1">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.03
+        </item>
+
+        <item name="android:textColor">
+            #66000000
+        </item>
+
+    </style>
+
+
+    <style name="mustcon">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #4656D5
+        </item>
+
+    </style>
+
+    <style name="mustcon2">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #ea0e0e
+        </item>
+
+    </style>
+
+    <style name="chooseagoodpassword">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #9E9E9E
+        </item>
+
+    </style>
+
+
+    <style name="veryweek">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #ea0e0e
+        </item>
+
+    </style>
+
+    <style name="youareready">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.04
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="welcomeagain">
+
+        <item name="android:textSize">
+            29sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.04
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="total_spent">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #7E8EAA
+        </item>
+
+    </style>
+
+
+    <style name="createcompte">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #4656D5
+        </item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="SCBSwitch">
+
+        <item name="colorControlActivated">#00BFFF
+        </item>
+
+
+        <item name="colorSwitchThumbNormal">#424242
+        </item>
+
+
+        <item name="android:colorForeground">#424242
+        </item>
+    </style>
+
+
+
+
+
+
+
+
+    <style name="english">
+        <item name="enteryouremail">Enter your adress to connect \nto your account</item>
+        <item name="next">Next</item>
+        <item name="changeaccount">Change Your Account</item>
+        <item name="enterpassword">Enter Your Password</item>
+        <item name="forgetten">Forgetten?</item>
+        <item name="welcome">Welcome Again</item>
+
+        <item name="textreadytogo">You are Ready To Go!!</item>
+        <item name="textdescriptionaccueil">Thanks for taking your time to\n create account with us. Now this is\n the fun part, let’s explore the App.</item>
+        <item name="home">Home</item>
+        <item name="refund">Refund</item>
+        <item name="position">Position</item>
+        <item name="newrefund">New Refund</item>
+        <item name="history">History</item>
+
+        <item name="contribution">Contribution</item>
+        <item name="management">Management</item>
+        <item name="settings">Settings</item>
+        <item name="personnaldetails">Personal Details</item>
+        <item name="changelangage">Change Language</item>
+        <item name="nightmode">Night Mode</item>
+        <item name="changepassword">Change Password</item>
+        <item name="fingerprint">Signin with fingerprint</item>
+
+        <item name="logout">Logout</item>
+        <item name="security">Security</item>
+        <item name="customerservice">Customer Service</item>
+        <item name="rategoogleplay">Rate us on Google Play</item>
+        <item name="followtwitter">Follow us on Twitter</item>
+        <item name="likefacebook">Like Us On Facebook</item>
+        <item name="followinstagram">Follow Us on Instagram</item>
+
+        <item name="followlinkedin">Follow Us on LinkedIn</item>
+        <item name="abonneryoutube">Subscribe on YouTube</item>
+
+        <item name="apropos">About Us</item>
+
+
+    </style>
+
+    <style name="frensh">
+        <item name="enteryouremail">Entrer votre adresse mail \npour se connecter </item>
+        <item name="next">Suivant</item>
+        <item name="changeaccount">Changer Votre Compte</item>
+        <item name="enterpassword">Entrer Votre Mot de passe</item>
+        <item name="forgetten">Oublié?</item>
+        <item name="welcome">Content de te revoir</item>
+        <item name="textreadytogo">Vous etes pret de démarrer !!</item>
+        <item name="textdescriptionaccueil">Merci davoir pris le temps de\n créer un compte avec nous. Maintenant, cest\n la partie amusante, explorons lapplication.
+        </item>
+        <item name="home">Accueil</item>
+
+        <item name="refund">Remboursement</item>
+        <item name="position">Position</item>
+        <item name="newrefund">Nouveau Remboursement</item>
+        <item name="history">Historique</item>
+        <item name="contribution">Versement</item>
+        <item name="management">Gestion</item>
+        <item name="settings">Paramètres</item>
+        <item name="personnaldetails">Détails personnels</item>
+        <item name="changelangage">Changer la langue</item>
+        <item name="nightmode">Mode Sombre</item>
+        <item name="changepassword">Changer mot de passe</item>
+        <item name="fingerprint">Sauthentifier emprunte</item>
+        <item name="logout">Se Déconnecter</item>
+        <item name="security">Sécurité</item>
+        <item name="customerservice">Service Client</item>
+        <item name="rategoogleplay">Evaluez Nous sur Google Play</item>
+
+        <item name="followtwitter">Suivez Nous sur Twitter</item>
+
+        <item name="likefacebook">Aimez Nous sur Facebook</item>
+        <item name="followinstagram">Suivez Nous sur Instagram</item>
+        <item name="followlinkedin">Suivez Nous sur LinkedIn</item>
+        <item name="abonneryoutube">Abonnez Vous sur YouTube</item>
+        <item name="apropos">A propos</item>
+
+
+    </style>
+
+
+
+
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backgroundcolor">#1b2029</item>
+        <item name="textcolor">#F9FAFC</item>
+
+
+
+    </style>
+
+
+
+
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/popup_background</item>
+    </style>
+
+    <style name="DatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorbleu</item>
+        <item name="colorPrimaryDark">@color/colorgris</item>
+        <item name="colorAccent">@color/colorbleu</item>
+    </style>
+
+
+
+
+</resources>

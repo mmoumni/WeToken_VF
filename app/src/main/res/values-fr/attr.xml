@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableLayout">
+        <attr name="expDuration" format="integer|reference"/>
+        <attr name="expWithParentScroll" format="boolean"/>
+        <attr name="expExpandScrollTogether" format="boolean"/>
+        <attr name="enteryouremail" format="string" />
+        <attr name="next" format="string" />
+        <attr name="changeaccount" format="string" />
+        <attr name="enterpassword" format="string" />
+        <attr name="forgetten" format="string" />
+        <attr name="welcome" format="string" />
+        <attr name="textreadytogo" format="string" />
+         <attr name="textdescriptionaccueil" format="string"/>
+        <attr name="home" format="string"/>
+        <attr name="refund" format="string"/>
+        <attr name="position" format="string"/>
+        <attr name="newrefund" format="string"/>
+        <attr name="history" format="string"/>
+        <attr name="contribution" format="string"/>
+        <attr name="management" format="string"/>
+        <attr name="settings" format="string"/>
+        <attr name="personnaldetails" format="string"/>
+        <attr name="changelangage" format="string"/>
+        <attr name="changepassword" format="string"/>
+        <attr name="nightmode" format="string"/>
+        <attr name="fingerprint" format="string"/>
+        <attr name="logout" format="string"/>
+        <attr name="security" format="string"/>
+        <attr name="customerservice" format="string"/>
+        <attr name="rategoogleplay" format="string"/>
+        <attr name="followtwitter" format="string"/>
+        <attr name="likefacebook" format="string"/>
+        <attr name="followinstagram" format="string"/>
+        <attr name="followlinkedin" format="string"/>
+        <attr name="abonneryoutube" format="string"/>
+        <attr name="apropos" format="string"/>
+        <attr name="textcolor" format="color" />
+        <attr name="backgroundcolor" format="color" />
+        <attr name="drawable" format="string" />
+
+
+
+
+
+
+
+
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="AnimatedCircleLoadingView">
+
+        <attr name="animCircleLoadingView_mainColor" format="color" localization="suggested" />
+
+        <attr name="animCircleLoadingView_secondaryColor" format="color" localization="suggested" />
+
+        <attr name="animCircleLoadingView_checkMarkTintColor" format="color" localization="suggested" />
+
+        <attr name="animCircleLoadingView_failureMarkTintColor" format="color" localization="suggested" />
+
+        <attr name="animCircleLoadingView_textColor" format="color" localization="suggested" />
+
+    </declare-styleable>
+
+
+
+</resources>

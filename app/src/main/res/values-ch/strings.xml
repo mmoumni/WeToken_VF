@@ -1,0 +1,145 @@
+<resources>
+    <!-- login -->
+
+    <string name="create_an_a">输入您的手机号码以连接您的帐户</string>
+    <string name="hithere">你好,</string>
+    <string name="next">NEXT</string>
+    <string name = "createcompte">我没有帐号 </string>
+
+    <!-- verification code -->
+
+    <string name="phone_verif">电话查询</string>
+    <string name="we_have_sen">我们已向您发送了一条短信，其中包含要拨打的代码</string>
+    <string name = "didn_t_you">您没有收到验证码吗？将新代码返回到5. </string>
+
+
+    <!-- last name-->
+
+    <string name="welcome">欢迎</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name = "what_s_your"> ما هو اسمك  </string>
+
+    <string name = "weneed"> نحتاج إلى مزيد من التفاصيل لإنشاء حسابك </string>
+    <string name = "thinkpass"> فكر في كلمة مرور للدخول إليها </string>
+
+    <string name="email">بريدك الالكتروني هو ...</string>
+    <string name = "hi"> مرحبًا! </string>
+    <string name = "pass"> فكر في كلمة مرور للدخول  </string>
+    <string name = "great"> رائع! </string>
+    <string name="passw">كلمة السر الخاصة بك</string>
+    <string name = "confpass"> أكد رمز المرور الخاص بك </string>
+    <string name = "sign_up"> دعنا نبدأ </string>
+    <string name = "thnks"> نشكرك على قضاء وقتك لإنشاء حساب معنا. </string>
+    <string name = "readytogo"> أنت مستعد للذهاب! </string>
+
+
+    <string name="mustcon">يجب أن تحتوي على: </string>
+    <string name = "mustcon2"> حرف واحد خاص ، حرف كبير واحد ، حرف واحد صغير </string>
+    <string name = "chooseagoodpassyord"> اختر كلمة مرور جيدة </string>
+    <string name = "veryweek"> ضعيف جدًا </string>
+    <string name = "youareready"> أنت مستعد للذهاب! </string>
+    <string name = "welcomagain">  مرحبًا بك مرة أخرى </string>
+
+
+    <!-- drawer -->
+
+
+    <string name = "action_refund">退款 </string>
+    <string name = "menu_position">位置 </string>
+    <string name = "menu_refund"> 新退款</string>
+    <string name = "menu_history">贡献额 </string>
+
+    <string name = "action_contribution"> 贡献 </string>
+    <string name = "menu_management"> 管理 </string>
+    <string name = "menu_histor">历史沿革 </string>
+
+    <string name = "action_bonuses"> 红利 </string>
+    <string name = "menu_sharing">分享 </string>
+    <string name = "menu_performances"> 表演 </string>
+
+
+    <string name = "action_arbitrage">套利 </string>
+    <string name = "menu_positio"> 位置  </string>
+    <string name = "menu_histori">历史沿革 </string>
+
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="English">English</string>
+    <string name="French">Français</string>
+    <string name="Arab">العربية</string>
+    <string name="Chinese">中国</string>
+    <string name="Spain">Española</string>
+
+
+
+
+
+    <string name="Contribution">贡献</string>
+    <string name="Refunds">退款</string>
+    <string name="Bonuses">奖金</string>
+    <string name="Arbitrage">套利</string>
+
+
+
+
+
+
+    <!-- Newrefund -->
+
+    <string name="total_spent">退款数量</string>
+    <string name="refundtype">退款类型</string>
+    <string name="amount">量</string>
+    <string name="btndone">完成</string>
+    <string name="RefundRequest">退款要求</string>
+
+
+
+
+
+
+
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+
+
+    <string name="enterpass">输入密码</string>
+    <string name="forgetpassword">忘记密码</string>
+
+
+
+    <string name="langue">Langues</string>
+    <string name="ok">OK</string>
+    <string name="fr">Français</string>
+    <string name="en">Anglais</string>
+
+
+
+
+
+
+</resources>

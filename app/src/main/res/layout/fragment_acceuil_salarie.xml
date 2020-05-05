@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorbackground"
+              android:orientation="vertical">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/email"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                />
+
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+
+            android:id="@+id/expandable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            app:expandable_animation="bounce"
+            app:expandable_duration="100"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/layout_parent"
+            app:expandable_secondLayout="@layout/layout_second" />
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:expandable_animation="bounce"
+            app:expandable_duration="200"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/layout_parent1"
+            app:expandable_secondLayout="@layout/layout_second1" />
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:expandable_duration="200"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/layout_parent2"
+            app:expandable_secondLayout="@layout/layout_second2"
+            app:expandable_spinner_color="@color/md_amber_700" />
+
+
+
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+
+        android:id="@+id/expandablebonus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="300"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_parent3"
+        app:expandable_secondLayout="@layout/layout_second3" />
+
+
+
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+
+        android:id="@+id/expandablearbitrage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="300"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_parent4"
+        app:expandable_secondLayout="@layout/layout_second4" />
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+
+        android:id="@+id/expandablecacheincacheout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:expandable_animation="bounce"
+        app:expandable_duration="300"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_parent5"
+        app:expandable_secondLayout="@layout/layout_second5" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+

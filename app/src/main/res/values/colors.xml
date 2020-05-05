@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorbleu">#3629B7</color>
+    <color name="colorbleutrans">#3100BFFF</color>
+    <color name="colorgris">#F9FAFC</color>
+    <color name="colorbackground">#F7F8FB</color>
+    <color name="colorblack">#000000</color>
+    <color name="ios_white">#FFFFFF</color>
+
+    <color name="colorbackground2">#3988DC</color>
+
+    <color name="background">#65828e</color>
+    <color name="main_color">#ff9a00</color>
+    <color name="secondary_color">#BDBDBD</color>
+
+
+    <color name="white_56">#8effffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_87">#ddffffff</color>
+    <color name="white_93">#edf8f8f8</color>
+    <color name="skyBlue">#57A8D8</color>
+    <color name="yellow">#FBC02D</color>
+    <color name="md_yellow_100">#FFD600</color>
+    <color name="md_yellow_200">#FBC02D</color>
+    <color name="md_amber_700">#FFA000</color>
+    <color name="md_orange_100">#FFA726</color>
+    <color name="md_orange_200">#FF6D00</color>
+    <color name="md_green_100">#81C784</color>
+    <color name="md_green_200">#388E3C</color>
+    <color name="md_blue_100">#81D4fA</color>
+    <color name="md_blue_200">#0091EA</color>
+    <color name="md_purple_100">#AA00FF</color>
+    <color name="md_purple_200">#7200CA</color>
+
+    <color name="red">#F44336</color>
+
+
+</resources>
